@@ -1,0 +1,33 @@
+{
+  "openviking-memory": {
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node ~/.gemini/config/plugins/openviking/servers/agy-hook.mjs PreInvocation"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "view_file|write_to_file|replace_file_content|multi_replace_file_content|list_dir|find_by_name",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.gemini/config/plugins/openviking/servers/agy-hook.mjs PreToolUse"
+          }
+        ]
+      }
+    ],
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "node ~/.gemini/config/plugins/openviking/servers/agy-hook.mjs PostInvocation"
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node ~/.gemini/config/plugins/openviking/servers/agy-hook.mjs Stop"
+      }
+    ]
+  }
+}

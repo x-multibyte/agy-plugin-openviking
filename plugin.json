@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "openviking",
+  "description": "OpenViking semantic context database integration for Antigravity CLI (agy) — provides passive memory recall, URI protection, turn capture, and session commit."
+}

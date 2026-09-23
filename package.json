@@ -1,0 +1,25 @@
+{
+  "name": "agy-plugin-openviking",
+  "version": "1.0.0",
+  "description": "OpenViking long-term memory & context database plugin for Google Antigravity CLI (agy)",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "validate": "agy plugin validate .",
+    "install-plugin": "agy plugin install ."
+  },
+  "keywords": [
+    "antigravity",
+    "agy",
+    "openviking",
+    "memory",
+    "mcp",
+    "context-engine",
+    "long-term-memory"
+  ],
+  "author": "Tony Simons & OpenViking Contributors",
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
