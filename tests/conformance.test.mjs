@@ -1,10 +1,12 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
 
-const REPO_ROOT = join(import.meta.dirname, "..");
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = join(__dirname, "..");
 
 describe("Antigravity Plugin Conformance", () => {
   it("plugin.json has valid name and metadata", () => {
