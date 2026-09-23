@@ -64,7 +64,7 @@ This plugin provides **100% feature parity** with the Claude Code and Codex Open
 Clone the repository and run the installer:
 
 ```bash
-git clone https://github.com/your-username/agy-plugin-openviking.git
+git clone https://github.com/x-multibyte/agy-plugin-openviking.git
 cd agy-plugin-openviking
 ./install.sh
 ```

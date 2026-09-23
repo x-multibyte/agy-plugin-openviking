@@ -62,7 +62,7 @@
 克隆仓库并运行安装脚本：
 
 ```bash
-git clone https://github.com/your-username/agy-plugin-openviking.git
+git clone https://github.com/x-multibyte/agy-plugin-openviking.git
 cd agy-plugin-openviking
 ./install.sh
 ```
